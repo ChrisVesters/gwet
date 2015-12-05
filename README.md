@@ -8,7 +8,7 @@ Rules specify the tests by their fully qualified name. Example:
 com.util.TestCaseA.testa = excluded
 com.util.TestCaseB.testb = included
 
-Support for two wildcards is provided: '*' and '?' which match any sequence of characters and exactly one character respectively.
+Support for two wildcards is provided: '\*' and '?' which match any sequence of characters and exactly one character respectively.
 It is however still required to write the full path of the test. Example:
 *.*.TestCaseA.testa = excluded
 
